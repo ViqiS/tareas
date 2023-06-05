@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Rufina', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(217,215,180,1) 40%, rgba(172,225,181,1) 74%, rgba(148,187,233,1) 100%);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Rufina', serif;
 }
+
+#root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 

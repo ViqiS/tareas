@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
+.todoCounter {
+  font-size: 24px;
+    text-align: center;
+    border-style: dotted;
+    background-color: rgb(159 204 209);
+    margin-top: 60px;
+    font-weight: bold;
+    width: 400px;
+    border: 2px solid rgb(183 133 253);
+    border-radius: 16px;;
+}
+

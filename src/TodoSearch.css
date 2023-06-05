@@ -1,0 +1,29 @@
+.search-label {
+  position: relative;
+  display: inline-block;
+}
+input {
+  background-color: transparent;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: 2px solid rgb(183 133 253);
+  border-radius: 8px;
+}
+.search-label input[type="text"] {
+  padding-left: 20px; 
+}
+.search-label:before {
+  content: "";
+  position: absolute;
+  top: 39%;
+  right: 5px;
+  transform: translateY(-50%);
+  width: 16px; /* Ajusta el valor según el tamaño de tu imagen */
+  height: 16px; /* Ajusta el valor según el tamaño de tu imagen */
+  background-image: url('/src/icons/search.png'); /* Reemplaza la ruta con la ubicación correcta de tu imagen */
+  background-size: cover;
+}
+
+.search-input:focus {
+  outline-color: beige;
+}
