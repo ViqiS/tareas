@@ -1,0 +1,40 @@
+.LoadingTodo-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoadingTodo-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.Time {
+  width: 30px;
+  height: 30px;
+  color: rgb(183 133 253);
+  -webkit-animation: flip-horizontal-bottom 0.7s ease-in-out infinite alternate ;
+  animation: flip-horizontal-bottom 0.7s ease-in-out infinite alternate ;
+}
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}

@@ -20,7 +20,7 @@ input {
   transform: translateY(-50%);
   width: 16px; /* Ajusta el valor según el tamaño de tu imagen */
   height: 16px; /* Ajusta el valor según el tamaño de tu imagen */
-  background-image: url('/src/icons/search.png'); /* Reemplaza la ruta con la ubicación correcta de tu imagen */
+  background-image: url('./search.png'); /* Reemplaza la ruta con la ubicación correcta de tu imagen */
   background-size: cover;
 }
 
