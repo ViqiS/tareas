@@ -1,5 +1,5 @@
 .TodoItem {
-    width: 400px;
+    width: auto;
     height: 35px;
     display: flex;
     justify-content: space-around;

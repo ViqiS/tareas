@@ -1,5 +1,6 @@
 .TodoList {
-  width: 400px;
+  width: 300px;
+  height: fit-content;
   margin: 0;
   padding: 0 0 56px;
   list-style: none;
