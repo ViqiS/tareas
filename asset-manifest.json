@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ViqiS/tareas/static/css/main.4344942e.css",
+    "main.js": "/ViqiS/tareas/static/js/main.c4769551.js",
+    "static/media/search.png": "/ViqiS/tareas/static/media/search.f8625530f28f5f5d0bfa.png",
+    "index.html": "/ViqiS/tareas/index.html",
+    "static/media/cancel.svg": "/ViqiS/tareas/static/media/cancel.67697f56fd2f149bc9515a879062ad5c.svg",
+    "static/media/check.svg": "/ViqiS/tareas/static/media/check.23109d14544b9bb9b3d5d4e65ea13701.svg",
+    "main.4344942e.css.map": "/ViqiS/tareas/static/css/main.4344942e.css.map",
+    "main.c4769551.js.map": "/ViqiS/tareas/static/js/main.c4769551.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4344942e.css",
+    "static/js/main.c4769551.js"
+  ]
+}
